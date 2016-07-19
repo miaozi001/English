@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <script src="js/jquery-2.2.2.min.js"></script>
 <style>
 *{
@@ -26,6 +27,17 @@ body{
     margin-top: 20px;
     text-align: center;
     text-shadow: 3px 3px 5px red;
+
+}
+#words h1 button{
+    padding: 3px 5px;
+    border: solid 1px #00A3F2;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    outline: none;
 }
 #words li p:nth-child(3n+1){
     background: #eef;
@@ -84,7 +96,7 @@ body{
 </head>
 <body>
 <div id="words">
-    <h1>English</h1>
+    <h1>English<button>显示</button></h1>
     <ul></ul>
 </div>
 <script>
@@ -102,7 +114,8 @@ body{
                 for(var j=0;j<data[key].length;j++){
                     var arr = data[key];
                     var _arr = arr[j].split('|');
-                    p += '<p><b>'+ _arr[0] +'：</b>' + '<span>'+ _arr[1] +'</span><br/>'
+                    if(_arr.length <= 3) p += '<p><b>'+ _arr[0] +'：</b>' + '<span>'+ _arr[1] +'</span><br/>';
+                    else p += '<p><b>'+ _arr[0] +'：</b>' + '<span>'+ _arr[1] +'</span><br/>'
                             + '<b>'+ _arr[2] +'</b>' + '<span>'+ _arr[3] +'</span></p>';
                 };
                 li += '<li><h2>'+ key +'</h2><div>'+ p +'</div></li>';
@@ -116,12 +129,22 @@ body{
             if(show == 'inline-block') {
                 $(this).next('span').css('display','none');
                 $(this).removeClass('chk');
-            }
-            else {
+            } else {
                 $(this).next('span').css('display','inline-block');
                 $(this).addClass('chk');
             }
         })
+    });
+    $('#words').find('h1 button').on('click',function(){
+        if($('#words li p span').css('display') == 'none') {
+            $('#words li p span').css('display','inline-block');
+            $('#words li p b').addClass('chk');
+            $(this).html('隐藏');
+        } else {
+            $('#words li p span').css('display','none');
+            $('#words li p b').removeClass('chk');
+            $(this).html('显示');
+        }
     })
 })()
 

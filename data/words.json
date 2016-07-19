@@ -12,6 +12,51 @@
   ],
 
   "two":[
-    "足球|football|我正在看一场足球赛|i'm watching a football game."
+    "足球|football|我正在看一场足球赛|i'm watching a football game.",
+    "最喜欢的|favourite|我最喜欢的卡通是海贼王|my favourite catoon is onepiace.",
+    "嘴巴|mouth|请张开你的嘴|open your mouth pleasae.",
+    "头|head|她点了点头|she nodded her head.",
+    "医生|doctor|我的父亲是一名医生|my father is a doctor.",
+    "知道|know|你知道那个歌手吗|do you know that singer.",
+    "新的|new|我有一个新的铅笔盒|i have a new pencil box.",
+    "再一次|again|请再读一遍那个单词|please read the word again.",
+    "老师|teacher|高老师是我的英语老师|miss gao is my english teacher.",
+    "铅笔|pencil|我们用铅笔写字|we write with pencils."
+  ],
+  "there":[
+    "在...后面|behind| 公交车站在图书馆的后面|the bus stop is behind the library.",
+    "玩|play|那个女孩在公园玩耍|the girl is playing in the garden.",
+    "季节|season|一年有四个季节|there are four seasons in a year.",
+    "班级|class|下课了|the class is over.",
+    "游泳|swiming|游泳是一项很好的锻炼|swimming is a good exercise.",
+    "购物|shopping|课后我们去购物吧|let's go shopping after class.",
+    "工作|work|maggin一周工作五天|maggin works five days a week.",
+    "传递|pass|请把盐递给我|pass me the salt please.",
+    "锻炼|exercise|我的爷爷经常在早上锻炼|my grandfather often does exercise in the morning.",
+    "篮球|basketball|你喜欢打篮球吗|do you like playing basketball."
+  ],
+  "four":[
+    "害怕的|afraid|别怕我|don't be afraid of me.",
+    "帮助|help|非常感谢你的帮助|thank you very much for your help.",
+    "跳舞|dance|我们一起跳舞吧|let's going dancing.",
+    "饥饿的|hungry|我现在饿了|i'm hungry now.",
+    "喝|drink|我喝了三瓶水|i drank three bottles of water.",
+    "有趣的|interesting|这个故事很有趣|the story is very interesting.",
+    "附近的|near|我家和我的学校很近|my home is near my school",
+    "裤子|trousers|我爸爸给我买了一条新裤子|my father bought me a pair of new trousers.",
+    "动物|animal|我喜欢可爱的动物|i like lovely animals.",
+    "关于|about|这本书是关于那个歌手的|the book is about that singer."
+  ],
+  "five":[
+    "身体健康的|healthy|玛丽是一个健康的女孩|mary is a healthy girl.",
+    "事情|matter|有什么事情|what's the matter?|",
+    "结束|finish|学校什么时候下班| what time does school finish?|",
+    "欢迎|wecome|欢迎来我们家|welcome to our home!",
+    "好吃的|delicious|那个蛋糕很好吃|the cake is very delicious.",
+    "计算机|computer|我弟弟喜欢玩电脑游戏|my borther loves to play computer games!",
+    "天气|weather|今天天气怎么样？|what's the weather like today?",
+    "有名的|famous|姚明是一个著名的运动员|yaoming is a famous player.",
+    "聪明的|clever|迈克是一个聪明的学生|mike is a clever student.",
+    "蔬菜|vegetable|"
   ]
 }
